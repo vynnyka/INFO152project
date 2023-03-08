@@ -30,10 +30,6 @@ section {
     float: left;
     width: 500px;
 }
-footer {
-    clear: both;
-    border-top: 2px solid black;
-}
 footer p {
     text-align: right;
     font-size: 80%;
