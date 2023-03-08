@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>Products</title>
-    <link rel="stylesheet" type="text/css" href="main.css" href="index.php">
+ 
+    <link rel="stylesheet" type="text/css" href="<?php echo $app_path ?>main.css" />
 </head>
+  
 
 <body>
     <?php include 'header.php'; ?>
@@ -11,7 +13,7 @@
         <h1>Products</h1>
     </main>
     <p id="copyright">
-        &copy; <?php echo date("Y"); ?> My Guitar Shop, Inc.
+        &copy;<?php echo date("Y"); ?> Our Project.
     </p>
 </body>
 </html>
