@@ -33,7 +33,7 @@ section {
     width: 500px;
 }
 footer p {
-    text-align: right;
+    text-align: center;
     font-size: 80%;
 }
 h1 {
@@ -130,6 +130,7 @@ form {
     background-color: darkgrey;
     position: relative;
     height: 50px;
+    width: auto;
     margin-top: -50px;
     clear: both;
 }
