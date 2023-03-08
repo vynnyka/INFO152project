@@ -1,12 +1,14 @@
 /* the styles for the HTML elements */
+
+html, body{
+    height: 100%;
+}
 html {
     background-color: rgb(192, 192, 192);
-    height: 100%;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 760px;
-    height: 100%;
     margin: 0 auto;
     padding: 0 2em;
     background-color: white;
