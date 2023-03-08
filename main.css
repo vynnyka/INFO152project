@@ -1,11 +1,12 @@
 /* the styles for the HTML elements */
 html {
     background-color: rgb(192, 192, 192);
+    height: 100%;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 760px;
+    height: 100%;
     margin: 0 auto;
     padding: 0 2em;
     background-color: white;
@@ -116,4 +117,21 @@ form {
 }
 #add_product_form input[text] {
     width: 15em;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+#footer {
+    background-color: darkgrey;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
 }
